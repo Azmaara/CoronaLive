@@ -273,16 +273,20 @@ body {
 
  }
  
- .confirmed, .recovered {
+  .recovered {
      border-right-width:2px;
      border-right-style: solid;
      border-right-color: coral;
     
  }
  
-.confirmed {
+ .confirmed {
+    border-right-width:2px;
+     border-right-style: solid;
+     border-right-color: coral;
    color: black;
 }
+
  .recovered, #totalRecovered {
      color: green;
  }
