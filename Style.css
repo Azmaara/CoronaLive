@@ -102,12 +102,12 @@ body {
  
  .loader div:nth-child(5) {
    background-color: #75B08A;
-   animation: move 2s 600ms infinite cubic-bezier(.2,.64,.81,.23);
+   animation: move 3s 600ms infinite cubic-bezier(.2,.64,.81,.23);
  }
 
 .loader div:nth-child(6) {
    background-color: #75B08A;
-   animation: move 2s 750ms infinite cubic-bezier(.2,.64,.81,.23);
+   animation: move 4s 750ms infinite cubic-bezier(.2,.64,.81,.23);
  }
  
  @keyframes move {
