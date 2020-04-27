@@ -280,6 +280,9 @@ body {
     
  }
  
+.confirmed {
+   color: black;
+}
  .recovered, #totalRecovered {
      color: green;
  }
