@@ -284,8 +284,12 @@ body {
      color: green;
  }
  
- .death, #totalDeath {
-     color: red;
+ #totalDeath {
+     color: rgb(221, 243, 21);
+ }
+ 
+ .death{
+   color:red;
  }
  
  @media all and (max-width: 600px) {
