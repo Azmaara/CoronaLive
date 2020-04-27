@@ -70,7 +70,7 @@ function httpGet(link) {
 active +'<br><br>Active</p><button id="' + key + '" onclick = "showGraph(this, '+ key +', '+ confirmed +','+recovered+','+deaths+')" class="btn btn-info">Display By Graph</button><div id = "chartContainer_' + key + '"></div></div></div>';
                 });
                 
-                $('#totalConfirmed').html('<b>' + totalConfirmed + '</b><br>');
+                $('#totalConfirmed').html('<b>style="background-color:white' + totalConfirmed + '</b><br>');
                 $('#totalRecovered').html('<b>' + totalRecovered + '</b><br>');
                 $('#totalDeath').html('<b>' + totalDeath + '</b><br><br>');
                 $('#totalActive').html('<b>' + totalActive + '</b><br><br> Active Cases (Confirmed - Recovered - Deaths)');
